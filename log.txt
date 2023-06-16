@@ -1,0 +1,15 @@
+2023-06-16 00:00:23.569  INFO 14844 --- [http-nio-8080-exec-1] c.e.e.controller.EmployeeController      : this is calling employeeService.getAllEmployeeDetails()
+2023-06-16 00:01:05.303  WARN 14844 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "{2}"]
+2023-06-16 00:01:17.542  WARN 14844 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "{id}"]
+2023-06-16 00:01:32.445  WARN 14844 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "{1}"]
+2023-06-16 00:02:16.140  INFO 14844 --- [http-nio-8080-exec-8] c.e.e.controller.EmployeeController      : Id= 1
+2023-06-16 00:02:51.479  INFO 14844 --- [http-nio-8080-exec-9] c.e.e.controller.EmployeeController      : Id= 2
+2023-06-16 00:04:00.368  WARN 14844 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-06-16 00:04:57.690  INFO 14844 --- [http-nio-8080-exec-3] c.e.e.controller.EmployeeController      : Id= 3
+2023-06-16 00:05:10.818  WARN 14844 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2023-06-16 00:05:20.597  WARN 14844 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2023-06-16 00:05:41.080  INFO 14844 --- [http-nio-8080-exec-7] c.e.e.controller.EmployeeController      : Id= 2
+2023-06-16 00:11:46.438  INFO 14844 --- [RMI TCP Connection(32)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-16 00:11:46.478  INFO 14844 --- [RMI TCP Connection(32)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16 00:11:46.481  INFO 14844 --- [RMI TCP Connection(32)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-16 00:11:46.494  INFO 14844 --- [RMI TCP Connection(32)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
